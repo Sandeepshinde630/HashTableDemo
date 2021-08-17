@@ -37,6 +37,10 @@ namespace HashTableDemo
             hash.Add("18", "situation");
             string hash15 = hash.Get("15");
             Console.WriteLine("15th index value: " + hash15);
+
+            hash.Remove("17");
+            string hash17 = hash.Get("17");
+            Console.WriteLine("17th index value: " + hash17);
         }
     }
 }
